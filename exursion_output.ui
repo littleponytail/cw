@@ -1,0 +1,1666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>exursion_output</class>
+ <widget class="QDialog" name="exursion_output">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1983</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="picture">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>841</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: red</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>60</y>
+     <width>771</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>160</y>
+     <width>131</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Страна:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>210</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Название отеля:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>410</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Транспорт:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>520</y>
+     <width>271</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Дата отправления:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="country">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>185</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>260</y>
+     <width>211</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Рейтинг отеля:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="description">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>750</y>
+     <width>1801</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>360</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ночи:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>310</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Питание:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>480</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Рейтинг:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="picture_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>901</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="country_2">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>180</y>
+     <width>461</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hotel_name">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>220</y>
+     <width>461</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hotel_rate">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>270</y>
+     <width>461</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="meals">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>320</y>
+     <width>461</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nights">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>370</y>
+     <width>461</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="transport">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>420</y>
+     <width>461</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="rate">
+   <property name="geometry">
+    <rect>
+     <x>1160</x>
+     <y>470</y>
+     <width>461</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="first_date">
+   <property name="geometry">
+    <rect>
+     <x>1202</x>
+     <y>544</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="second_date">
+   <property name="geometry">
+    <rect>
+     <x>1318</x>
+     <y>544</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="third_date">
+   <property name="geometry">
+    <rect>
+     <x>1438</x>
+     <y>544</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fouth_date">
+   <property name="geometry">
+    <rect>
+     <x>1558</x>
+     <y>544</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fifth_date">
+   <property name="geometry">
+    <rect>
+     <x>1678</x>
+     <y>544</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eighth_date">
+   <property name="geometry">
+    <rect>
+     <x>1083</x>
+     <y>572</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>8</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sixth_date">
+   <property name="geometry">
+    <rect>
+     <x>1798</x>
+     <y>544</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>6</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="seventh_date">
+   <property name="geometry">
+    <rect>
+     <x>966</x>
+     <y>572</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>7</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ninth_date">
+   <property name="geometry">
+    <rect>
+     <x>1202</x>
+     <y>572</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>9</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="twelth_date">
+   <property name="geometry">
+    <rect>
+     <x>1558</x>
+     <y>572</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>12</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tenth_date">
+   <property name="geometry">
+    <rect>
+     <x>1318</x>
+     <y>572</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>10</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eleventh_date">
+   <property name="geometry">
+    <rect>
+     <x>1438</x>
+     <y>572</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>11</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="thirteen_date">
+   <property name="geometry">
+    <rect>
+     <x>1678</x>
+     <y>572</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>13</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fourteenht_date">
+   <property name="geometry">
+    <rect>
+     <x>1798</x>
+     <y>572</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>14</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fifth_date_3">
+   <property name="geometry">
+    <rect>
+     <x>1678</x>
+     <y>598</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sixteenth_date">
+   <property name="geometry">
+    <rect>
+     <x>1083</x>
+     <y>598</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>16</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eighteenth_date">
+   <property name="geometry">
+    <rect>
+     <x>1318</x>
+     <y>598</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>18</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nineteenth_date">
+   <property name="geometry">
+    <rect>
+     <x>1438</x>
+     <y>598</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>19</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="twenteenth_date">
+   <property name="geometry">
+    <rect>
+     <x>1558</x>
+     <y>598</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>20</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sixth_date_3">
+   <property name="geometry">
+    <rect>
+     <x>1798</x>
+     <y>598</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fifteenth_date">
+   <property name="geometry">
+    <rect>
+     <x>966</x>
+     <y>598</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>15</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="seventeenth_date">
+   <property name="geometry">
+    <rect>
+     <x>1202</x>
+     <y>598</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string>17</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fifth_date_4">
+   <property name="geometry">
+    <rect>
+     <x>1678</x>
+     <y>624</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="twelth_date_3">
+   <property name="geometry">
+    <rect>
+     <x>1558</x>
+     <y>650</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fifth_date_5">
+   <property name="geometry">
+    <rect>
+     <x>1678</x>
+     <y>650</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eighth_date_3">
+   <property name="geometry">
+    <rect>
+     <x>1083</x>
+     <y>624</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tenth_date_3">
+   <property name="geometry">
+    <rect>
+     <x>1318</x>
+     <y>624</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eleventh_date_3">
+   <property name="geometry">
+    <rect>
+     <x>1438</x>
+     <y>650</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ninth_date_3">
+   <property name="geometry">
+    <rect>
+     <x>1202</x>
+     <y>650</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tenth_date_4">
+   <property name="geometry">
+    <rect>
+     <x>1318</x>
+     <y>650</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sixth_date_4">
+   <property name="geometry">
+    <rect>
+     <x>1798</x>
+     <y>650</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="seventh_date_3">
+   <property name="geometry">
+    <rect>
+     <x>966</x>
+     <y>650</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eleventh_date_4">
+   <property name="geometry">
+    <rect>
+     <x>1438</x>
+     <y>624</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="twelth_date_4">
+   <property name="geometry">
+    <rect>
+     <x>1558</x>
+     <y>624</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sixth_date_5">
+   <property name="geometry">
+    <rect>
+     <x>1798</x>
+     <y>624</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="seventh_date_4">
+   <property name="geometry">
+    <rect>
+     <x>966</x>
+     <y>624</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ninth_date_4">
+   <property name="geometry">
+    <rect>
+     <x>1202</x>
+     <y>624</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eighth_date_4">
+   <property name="geometry">
+    <rect>
+     <x>1083</x>
+     <y>650</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ninth_date_5">
+   <property name="geometry">
+    <rect>
+     <x>1202</x>
+     <y>675</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="seventh_date_5">
+   <property name="geometry">
+    <rect>
+     <x>966</x>
+     <y>675</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eighth_date_5">
+   <property name="geometry">
+    <rect>
+     <x>1083</x>
+     <y>675</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fifth_date_6">
+   <property name="geometry">
+    <rect>
+     <x>1678</x>
+     <y>675</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="eleventh_date_5">
+   <property name="geometry">
+    <rect>
+     <x>1438</x>
+     <y>675</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="twelth_date_5">
+   <property name="geometry">
+    <rect>
+     <x>1558</x>
+     <y>675</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tenth_date_5">
+   <property name="geometry">
+    <rect>
+     <x>1318</x>
+     <y>675</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sixth_date_6">
+   <property name="geometry">
+    <rect>
+     <x>1798</x>
+     <y>675</y>
+     <width>110</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(23, 112, 255);
+border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="user_login">
+   <property name="geometry">
+    <rect>
+     <x>1820</x>
+     <y>140</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="user_icon">
+   <property name="geometry">
+    <rect>
+     <x>1820</x>
+     <y>20</y>
+     <width>101</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_18">
+   <property name="geometry">
+    <rect>
+     <x>1820</x>
+     <y>20</y>
+     <width>121</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 0.3 px solid white;
+background-color:rgba(255, 0, 0, 0)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="login">
+   <property name="geometry">
+    <rect>
+     <x>1820</x>
+     <y>150</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mainpicture">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1981</width>
+     <height>1001</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>mainpicture</zorder>
+  <zorder>picture_2</zorder>
+  <zorder>picture</zorder>
+  <zorder>name</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>country</zorder>
+  <zorder>label_7</zorder>
+  <zorder>description</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>country_2</zorder>
+  <zorder>hotel_name</zorder>
+  <zorder>hotel_rate</zorder>
+  <zorder>meals</zorder>
+  <zorder>nights</zorder>
+  <zorder>transport</zorder>
+  <zorder>rate</zorder>
+  <zorder>first_date</zorder>
+  <zorder>second_date</zorder>
+  <zorder>third_date</zorder>
+  <zorder>fouth_date</zorder>
+  <zorder>fifth_date</zorder>
+  <zorder>eighth_date</zorder>
+  <zorder>sixth_date</zorder>
+  <zorder>seventh_date</zorder>
+  <zorder>ninth_date</zorder>
+  <zorder>twelth_date</zorder>
+  <zorder>tenth_date</zorder>
+  <zorder>eleventh_date</zorder>
+  <zorder>thirteen_date</zorder>
+  <zorder>fourteenht_date</zorder>
+  <zorder>fifth_date_3</zorder>
+  <zorder>sixteenth_date</zorder>
+  <zorder>eighteenth_date</zorder>
+  <zorder>nineteenth_date</zorder>
+  <zorder>twenteenth_date</zorder>
+  <zorder>sixth_date_3</zorder>
+  <zorder>fifteenth_date</zorder>
+  <zorder>seventeenth_date</zorder>
+  <zorder>fifth_date_4</zorder>
+  <zorder>twelth_date_3</zorder>
+  <zorder>fifth_date_5</zorder>
+  <zorder>eighth_date_3</zorder>
+  <zorder>tenth_date_3</zorder>
+  <zorder>eleventh_date_3</zorder>
+  <zorder>ninth_date_3</zorder>
+  <zorder>tenth_date_4</zorder>
+  <zorder>sixth_date_4</zorder>
+  <zorder>seventh_date_3</zorder>
+  <zorder>eleventh_date_4</zorder>
+  <zorder>twelth_date_4</zorder>
+  <zorder>sixth_date_5</zorder>
+  <zorder>seventh_date_4</zorder>
+  <zorder>ninth_date_4</zorder>
+  <zorder>eighth_date_4</zorder>
+  <zorder>ninth_date_5</zorder>
+  <zorder>seventh_date_5</zorder>
+  <zorder>eighth_date_5</zorder>
+  <zorder>fifth_date_6</zorder>
+  <zorder>eleventh_date_5</zorder>
+  <zorder>twelth_date_5</zorder>
+  <zorder>tenth_date_5</zorder>
+  <zorder>sixth_date_6</zorder>
+  <zorder>user_login</zorder>
+  <zorder>user_icon</zorder>
+  <zorder>pushButton_18</zorder>
+  <zorder>login</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
